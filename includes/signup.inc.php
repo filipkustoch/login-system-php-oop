@@ -10,5 +10,5 @@ if (isset($_POST['submit'])) {
     // Instantiate SignupContr class
     include '../classes/signup.classes.php';
     include '../classes/signup-contr.classes.php';
-    $signup = new SignupContr($uid,$pwd,$pwdRepeat,$email);
+    $signup = new SignupContr($uid, $pwd, $pwdRepeat, $email);
 }
