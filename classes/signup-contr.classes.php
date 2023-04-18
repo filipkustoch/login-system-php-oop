@@ -45,4 +45,13 @@ class SignupContr
         }
         return $result;
     }
+
+    private function pwdMatch(){
+        if($this->pwd !== $this->pwdRepeat){
+            $result = false;
+        } else {
+            $result = true;
+        }
+        return $result;
+    }
 }
