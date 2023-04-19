@@ -16,7 +16,7 @@ class SignupContr extends Signup
         $this->email = $email;
     }
 
-    private function signupUser(){
+    public function signupUser(){
         if($this->emptyInput() == false){
             header ("location: ../index.php?error=emptyinput");
             exit();
