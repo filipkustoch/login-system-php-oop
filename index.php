@@ -1,3 +1,8 @@
+<?php 
+session_start();
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -31,8 +36,9 @@
                     <input type="text" name="uid" placeholder="Username">
                     <input type="password" name="pwd" placeholder="Password">
                     <br>
-                    <button type="submit">LOGIN</button>
+                    <button type="submit" name="submit">LOGIN</button>
                 </form>
+                <a href="./includes/logout.inc.php">Logout</a>
             </div>
         </div>
     </section>
