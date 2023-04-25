@@ -19,7 +19,7 @@ session_start();
         <div class="wrapper">
             <div class="index-login-signup">
                 <h4>SIGN UP</h4>
-                <p>Don't have an account yet? Sign up here!</p>
+                <p>Don't have an account? Sign up here!</p>
                 <form action="includes/signup.inc.php" method="post">
                     <input type="text" name="uid" placeholder="Username">
                     <input type="password" name="pwd" placeholder="Password">
